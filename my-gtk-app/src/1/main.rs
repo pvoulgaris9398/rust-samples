@@ -1,6 +1,7 @@
 mod custom_button;
 
 use custom_button::CustomButton;
+use glib::closure_local;
 use gtk::prelude::*;
 use gtk::{glib, Application, ApplicationWindow};
 
@@ -25,9 +26,13 @@ fn build_ui(app: &Application) {
     // button.set_margin_start(12);
     // button.set_margin_end(12);
 
-    button1.connect_number_notify(|button| {
-        println!("The current number of `button1` is {}.", button.number())
-    });
+    button1.connect_closure(
+        "max-number-reached",
+        false,
+        closure_local!(move |_button: CustomButton, number: i32| {
+            println!("The maximum number {} has been reached!", number);
+        }),
+    );
 
     button1
         .bind_property("number", &button2, "number")
