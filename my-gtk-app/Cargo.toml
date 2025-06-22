@@ -7,5 +7,9 @@ edition = "2021"
 name="gtk-sample-app"
 path="src/main.rs"
 
+[[bin]]
+name="custom_button"
+path="src/1/main.rs"
+
 [dependencies]
 gtk = { version = "0.9.5", package = "gtk4", features = ["v4_12"] }
