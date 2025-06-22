@@ -3,5 +3,9 @@ name = "my-gtk-app"
 version = "0.1.0"
 edition = "2021"
 
+[[bin]]
+name="gtk-sample-app"
+path="src/main.rs"
+
 [dependencies]
 gtk = { version = "0.9.5", package = "gtk4", features = ["v4_12"] }
