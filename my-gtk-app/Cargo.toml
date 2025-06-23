@@ -4,16 +4,20 @@ version = "0.1.0"
 edition = "2021"
 
 [[bin]]
-name="gtk-sample-app"
-path="src/main.rs"
+name = "gtk-sample-app"
+path = "src/main.rs"
 
 [[bin]]
-name="custom_button"
-path="src/1/main.rs"
+name = "custom_button"
+path = "src/1/main.rs"
 
 [[bin]]
-name="g_object"
-path="src/2/main.rs"
+name = "g_object"
+path = "src/2/main.rs"
+
+[[bin]]
+name = "eventloop"
+path = "src/3/main.rs"
 
 [dependencies]
 gtk = { version = "0.9.5", package = "gtk4", features = ["v4_12"] }
