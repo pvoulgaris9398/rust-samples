@@ -1,6 +1,6 @@
 # Notes
 
-## `Sunday, 6/22/26`
+## `Sunday, 6/22/25`
 
 - Left off [here](https://gtk-rs.org/gtk4-rs/stable/latest/book/main_event_loop.html)
 - [Debbugging](https://github.com/rust-lang/rust-analyzer/issues/18535)
