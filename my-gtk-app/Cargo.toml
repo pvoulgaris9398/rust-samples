@@ -23,5 +23,10 @@ path = "src/eventloop/main.rs"
 name = "column_view_datagrid"
 path = "src/column_view_datagrid/main.rs"
 
+[[bin]]
+name = "mvvm1"
+path = "src/mvvm/main.rs"
+
 [dependencies]
 gtk = { version = "0.9.5", package = "gtk4", features = ["v4_12"] }
+rustbox = "*"
