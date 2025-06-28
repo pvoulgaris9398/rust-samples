@@ -9,15 +9,19 @@ path = "src/main.rs"
 
 [[bin]]
 name = "custom_button"
-path = "src/1/main.rs"
+path = "src/custom_button_example/main.rs"
 
 [[bin]]
 name = "g_object"
-path = "src/2/main.rs"
+path = "src/g_object/main.rs"
 
 [[bin]]
 name = "eventloop"
-path = "src/3/main.rs"
+path = "src/eventloop/main.rs"
+
+[[bin]]
+name = "column_view_datagrid"
+path = "src/column_view_datagrid/main.rs"
 
 [dependencies]
 gtk = { version = "0.9.5", package = "gtk4", features = ["v4_12"] }
