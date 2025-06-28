@@ -2,6 +2,11 @@
 https://github.com/huytd/mvvm-rs
 */
 
+fn main() {
+    println!("Attempting MVVM....");
+}
+
+/*
 extern crate rustbox;
 
 mod view;
@@ -42,3 +47,4 @@ fn main() {
         }
     }
 }
+*/

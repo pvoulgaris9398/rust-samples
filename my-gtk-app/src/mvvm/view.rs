@@ -1,3 +1,4 @@
+/*
 use rustbox;
 use rustbox::{Color, RustBox};
 use std::default::Default;
@@ -49,3 +50,4 @@ impl<'a> UI<'a> {
         self.r.poll_event(false)
     }
 }
+*/
