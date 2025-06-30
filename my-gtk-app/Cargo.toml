@@ -27,6 +27,10 @@ path = "src/column_view_datagrid/main.rs"
 name = "mvvm1"
 path = "src/mvvm/main.rs"
 
+[[bin]]
+name = "search"
+path = "src/search/main.rs"
+
 [dependencies]
 gtk = { version = "0.9.5", package = "gtk4", features = ["v4_12"] }
 # rustbox = "*" # does not compile for me on Windows
